@@ -1,0 +1,20 @@
+name: FastGhost
+version: 1.0.0
+main: com.fast.ghost.FastGhost
+api-version: '1.21'
+author: Fast
+description: FastGhost Hit Fixer
+
+commands:
+  fastghost:
+    description: FastGhost main command
+    usage: /fastghost <status|reload>
+    aliases: [fg]
+
+permissions:
+  fastghost.admin:
+    description: Allows FastGhost reload
+    default: op
+  fastghost.status:
+    description: Allows viewing FastGhost status
+    default: op
