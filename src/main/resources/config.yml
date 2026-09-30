@@ -1,0 +1,36 @@
+server-name: "FastServer"
+
+enabled: true
+
+# ===== معالجة Ghost Hits =====
+ghost-hit-fixer:
+  enabled: true
+  only-player-hits: true
+  min-damage: 0.01
+  max-damage: 1000.0
+
+# ===== تسجيل =====
+logging:
+  console: false
+  file: true
+  ghost-file: true
+
+# ===== التصحيح =====
+debug:
+  enabled: false
+
+# ===== الرسائل =====
+messages:
+  prefix: "&8[&6FastGhost&8] "
+  no-permission: "&cليس لديك صلاحية."
+  reload: "&aتم إعادة تحميل FastGhost."
+
+  status:
+    - "&6&m-----------------------------"
+    - "&6FastGhost &7- &fFastServer"
+    - "&7Status: &a%status%"
+    - "&7Hits Received: &f%received%"
+    - "&7Hits Cancelled: &f%cancelled%"
+    - "&7Ghost Hits Fixed: &a%fixed%"
+    - "&7Hits Logged: &f%logged%"
+    - "&6&m-----------------------------"
