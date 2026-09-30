@@ -1,0 +1,2 @@
+# FastGost
+FastGhost Hit Fixer
